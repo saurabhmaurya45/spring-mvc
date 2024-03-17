@@ -27,7 +27,13 @@
 			<artifactId>jakarta.servlet-api</artifactId>
 			<version>5.0.0</version>
 		</dependency>
-		
+		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>springmvc</finalName>
